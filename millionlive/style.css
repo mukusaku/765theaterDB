@@ -1,0 +1,27 @@
+h2 {
+	padding: .25em 0 .25em .75em;
+	border-left: 6px solid #ccc;
+}
+
+h4 {
+	padding: .15em 0 .15em .45em;
+	border-left: 6px solid #F00;
+}
+
+#left_frame {
+	float: left;
+	width: 35%;
+	background:#B3D9BA;
+}
+
+#right_frame {
+}
+
+*{
+	font-family: "メイリオ";
+}
+
+table, .alltable{
+	font-family: "メイリオ";
+	font-size:14px;
+}

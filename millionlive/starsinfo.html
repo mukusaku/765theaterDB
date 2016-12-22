@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<link href="./style.css" rel="stylesheet" type="text/css">
+<style>
+html {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	margin: 0;
+}
+
+body, .item {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	height: 100%;
+	overflow: auto;
+}
+
+.spacer {
+	height: 10000px;
+}
+</style>
+</head>
+
+<body>
+<div id="middle" class="item">
+	<!-- 左側のカラム-->
+	<div id="left_frame" class="item">
+		<ul>
+			<li>
+				<div onclick="obj=document.getElementById('miyamenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Miya</a>
+				</div>
+				<div id="miyamenu" style="display:none;clear:both; font-size: 12px;">
+					<ul>
+						<li><a href="text/miya/miyadetail_01.html" target="detail">ようこそ！アイドル学園天国</a></li>
+						<li><a href="text/miya/miyadetail_02.html" target="detail">輝け！アイドルライブバトルアリーナ</a></li>
+						<li>激闘！NAMCOアイドルサッカーフェス2013</li>
+						<li>大激闘！765プロ野球</li>
+						<li>恐怖！アイドルドキドキ肝だめし</li>
+						<li>開催！アイドル学園文化祭</li>
+						<li>極めよ！アイドル道</li>
+						<li>聖夜の奇跡！アイドルクリスマスTV</li>
+						<li>年またぎ！アイドル紅白歌祭り</li>
+						<li>甘いご奉仕！バレンタインキャラバン</li>
+						<li>集まれ！アイドルモンスターズ</li>
+						<li>【復刻】ようこそ！アイドル学園天国</li>
+						<li>開幕！春のサイクリングレース</li>
+						<li>逆襲！グレートアイドルキャッスル！</li>
+						<li>【復刻】激闘！NAMCOアイドルサッカーフェス2013</li>
+						<li>集え！NAMCOアイドルサッカーフェス2014</li>
+						<li>HAPPY☆PERFORM@NCE!!</li>
+						<li>納涼！アイドル夏祭りin港町</li>
+						<li>決選！学園ミスコンサバイバル</li>
+						<li>昂れ！アイドルファイト</li>
+						<li>熱烈！プラチナスターライブ3rd</li>
+						<li>祝祭！クリスマスフェスタ</li>
+						<li>年越し！アイドル美食グランプリ</li>
+						<li>甘ふわ♪ショコラハウス</li>
+						<li>夏到来！アイドル水上大運動会2015</li>
+						<li>怨霊！アイドル肝試しホテル</li>
+						<li>極楽♪温泉御殿ライブ</li>
+						<li>ようこそ♪聖ミリオン女学園</li>
+						<li>アイドルマスターズカップ13</li>
+						<li>【復刻】恐怖！アイドルドキドキ肝だめし</li>
+						<li>アイドルスペースウォーズ EpisodeⅣ ―放たれた希望―</li>
+						<li>芸術！？バレンタインミュージアム</li>
+						<li>もっと！輝け！アイドル強化合宿</li>
+						<li>BELIEVE MY DRE@M!!</li>
+						<li>囚われ！アイドルプリズン</li>
+						<li>Get to the top!サマースポーツフェス</li>
+						<li>秋を満喫！ミリオンオータムフェア</li>
+						<li>【復刻】大激闘！765プロ野球</li>
+</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('arisamenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Arisa</a></div>
+				<div id="arisamenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Arisa_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Arisa_Event2</a></li>
+						<li>Arisa_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('matsurimenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Matsuri</a></div>
+				<div id="matsurimenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Matsuri_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Matsuri_Event2</a></li>
+						<li>Matsuri_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('rocomenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Roco</a></div>
+				<div id="rocomenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Roco_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Roco_Event2</a></li>
+						<li>Roco_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('tomokamenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Tomoka</a></div>
+				<div id="tomokamenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Tomoka_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Tomoka_Event2</a></li>
+						<li>Tomoka_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('serikamenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Serika</a></div>
+				<div id="serikamenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Serika_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Serika_Event2</a></li>
+						<li>Serika_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('konomimenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Konomi</a></div>
+				<div id="konomimenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Konomi_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Konomi_Event2</a></li>
+						<li>Konomi_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('minakomenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Minako</a></div>
+				<div id="minakomenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Minako_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Minako_Event2</a></li>
+						<li>Minako_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('momokomenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Momoko</a></div>
+				<div id="momokomenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Momoko_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Momoko_Event2</a></li>
+						<li>Momoko_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('norikomenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Noriko</a></div>
+				<div id="norikomenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Noriko_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Noriko_Event2</a></li>
+						<li>Noriko_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('yurikomenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Yuriko</a></div>
+				<div id="yurikomenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Yuriko_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Yuriko_Event2</a></li>
+						<li>Yuriko_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('karenmenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Karen</a></div>
+				<div id="karenmenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Karen_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Karen_Event2</a></li>
+						<li>Karen_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('kotohamenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Kotoha</a></div>
+				<div id="kotohamenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Kotoha_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Kotoha_Event2</a></li>
+						<li>Kotoha_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('megumimenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Megumi</a></div>
+				<div id="megumimenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Megumi_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Megumi_Event2</a></li>
+						<li>Megumi_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('chizurumenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Chizuru</a></div>
+				<div id="chizurumenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Chizuru_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Chizuru_Event2</a></li>
+						<li>Chizuru_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('elenamenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Elena</a></div>
+				<div id="elenamenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Elena_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Elena_Event2</a></li>
+						<li>Elena_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('shizukamenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Shizuka</a></div>
+				<div id="shizukamenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Shizuka_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Shizuka_Event2</a></li>
+						<li>Shizuka_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('fukamenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Fuka</a></div>
+				<div id="fukamenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Fuka_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Fuka_Event2</a></li>
+						<li>Fuka_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('shihomenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Shiho</a></div>
+				<div id="shihomenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Shiho_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Shiho_Event2</a></li>
+						<li>Shiho_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('annamenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Anna</a></div>
+				<div id="annamenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Anna_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Anna_Event2</a></li>
+						<li>Anna_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('miraimenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Mirai</a></div>
+				<div id="miraimenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Mirai_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Mirai_Event2</a></li>
+						<li>Mirai_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('juliamenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Julia</a></div>
+				<div id="juliamenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Julia_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Julia_Event2</a></li>
+						<li>Julia_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('mizukimenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Mizuki</a></div>
+				<div id="mizukimenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Mizuki_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Mizuki_Event2</a></li>
+						<li>Mizuki_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('ikumenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Iku</a></div>
+				<div id="ikumenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Iku_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Iku_Event2</a></li>
+						<li>Iku_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('tsubasamenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Tsubasa</a></div>
+				<div id="tsubasamenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Tsubasa_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Tsubasa_Event2</a></li>
+						<li>Tsubasa_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('tamakimenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Tamaki</a></div>
+				<div id="tamakimenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Tamaki_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Tamaki_Event2</a></li>
+						<li>Tamaki_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('reikamenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Reika</a></div>
+				<div id="reikamenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Reika_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Reika_Event2</a></li>
+						<li>Reika_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('sayokomenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Sayoko</a></div>
+				<div id="sayokomenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Sayoko_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Sayoko_Event2</a></li>
+						<li>Sayoko_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('subarumenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Subaru</a></div>
+				<div id="subarumenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Subaru_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Subaru_Event2</a></li>
+						<li>Subaru_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('riomenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Rio</a></div>
+				<div id="riomenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Rio_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Rio_Event2</a></li>
+						<li>Rio_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('umimenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Umi</a></div>
+				<div id="umimenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Umi_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Umi_Event2</a></li>
+						<li>Umi_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('naomenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Nao</a></div>
+				<div id="naomenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Nao_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Nao_Event2</a></li>
+						<li>Nao_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('ayumumenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Ayumu</a></div>
+				<div id="ayumumenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Ayumu_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Ayumu_Event2</a></li>
+						<li>Ayumu_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('hinatamenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Hinata</a></div>
+				<div id="hinatamenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Hinata_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Hinata_Event2</a></li>
+						<li>Hinata_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('emilymenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Emily</a></div>
+				<div id="emilymenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Emily_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Emily_Event2</a></li>
+						<li>Emily_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('kanamenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Kana</a></div>
+				<div id="kanamenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Kana_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Kana_Event2</a></li>
+						<li>Kana_Event3</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div onclick="obj=document.getElementById('akanemenu').style; obj.display=(obj.display=='none')?'block':'none';">
+					<a style="cursor:pointer;">Akane</a></div>
+				<div id="akanemenu" style="display:none;clear:both;">
+					<ul>
+						<li><a href="miyadetail.html" target="detail">Akane_Event1</a></li>
+						<li><a href="miyadetail.html" target="detail">Akane_Event2</a></li>
+						<li>Akane_Event3</li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+		<div class="spacer"></div>
+	</div>
+	
+	<!-- 右側のカラム-->
+	<div id="right_frame" class="item">
+		<!-- targetに表示する名前-->
+		<iframe src="default.html" width="100%" height="100%" name="detail"></iframe>
+		<div class="spacer"></div>
+	</div>
+</div>
+</body>
+</html>
